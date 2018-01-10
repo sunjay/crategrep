@@ -1,0 +1,5 @@
+crates-mirror/*
+!crates-mirror/.gitkeep
+
+/target/
+**/*.rs.bk
