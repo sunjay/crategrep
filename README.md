@@ -19,3 +19,15 @@ crates.io. Running the following script will do just that. It may take a while.
 ```bash
 $ ./mirror-sources.sh
 ```
+
+## Building & Running
+
+To start the server, run:
+
+```bash
+$ cargo run
+```
+
+This should automatically install the right toolchain listed in the
+`rust-toolchain` file. To make sure you have a recent Rust nightly installed,
+use `rustup install nightly`.
